@@ -5,7 +5,6 @@
     <slot />
   </main>
 
-  <FooterTheFooter />
 </template>
 
 <script setup lang="ts"></script>
