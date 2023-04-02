@@ -1,0 +1,7 @@
+@import "../mixins.scss";
+
+@layer components {
+  .shadowy {
+    @include shadowy();
+  }
+}

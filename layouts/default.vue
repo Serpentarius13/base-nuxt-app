@@ -1,0 +1,13 @@
+<template>
+  <NavbarTheNavbar />
+
+  <main>
+    <slot />
+  </main>
+
+  <FooterTheFooter />
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>

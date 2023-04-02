@@ -1,0 +1,27 @@
+@import "../assets/scss/tailwind/base.scss";
+@import "../assets/scss/tailwind/utilities.scss";
+@import "../assets/scss/tailwind/components.scss";
+
+@import "../assets/scss/normalize.scss";
+@import "../assets/scss/mixins.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 10px;
+}
